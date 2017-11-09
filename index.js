@@ -12,7 +12,7 @@ return document.getElementById('grand-node').querySelector('div div div div div'
 
 function increaseRankBy(n) {
   debugger
-  var list = document.getElementbyId('app').querySelectorAll('ul.ranked-list li')
+  var list = document.getElementById('app').querySelectorAll('ul.ranked-list li')
 
   for(var i = 0; i < list.length; i++) {
     list.innerHTML[i] = (parseInt(list.innerHTML[i]) + n).toString()
